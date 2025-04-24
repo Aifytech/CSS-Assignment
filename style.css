@@ -1,0 +1,81 @@
+
+.container{
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.parent-div{
+  background-color: rgba(30, 29, 29, 0.906);
+  width: 250px;
+  height: 70vh;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(191, 187, 187);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-shot-div{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-image: url("istock-headshot.jpg");
+  background-position: center;
+}
+
+.name-div{
+  margin-top: -40px;
+}
+
+h2{
+  font-size: 12px;
+}
+
+.location{
+  color: rgb(160, 160, 88);
+  margin-top: -6px;
+  font-size: 7px;
+}
+
+.about-div{
+  margin-top: -60px;
+}
+.about-div p{
+  font-size: 10px;
+  font-weight: lighter;
+}
+.all-socials{
+  margin-top: -50px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+.social{
+  background-color: rgba(52, 50, 50, 0.918);
+  height: 35px;
+  width: 200px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+}
+h3{
+  font-size: small;
+  align-self: center;
+  
+}
+
